@@ -196,7 +196,7 @@ nltk>=3.6
 
 ## Author
 
-**Your Name**
+**Rohan Jain**
 - GitHub: [@Rohanjain2312](https://github.com/Rohanjain2312)
 - LinkedIn: [Your Profile](https://www.linkedin.com/in/jaroh23/)
 - Email: rohanjain2312@gmail.com
@@ -206,6 +206,14 @@ nltk>=3.6
 - IMDB Dataset: [Stanford AI Lab](http://ai.stanford.edu/~amaas/data/sentiment/)
 - TensorFlow/Keras for deep learning framework
 - scikit-learn for machine learning utilities
+
+## AI Assistance Disclosure
+
+This project was primarily developed and implemented by me.
+AI tool - Claude 3.5 Sonnet (Anthropic) were used selectively to refine code structure, improve documentation clarity, and support performance analysis.
+
+All model design decisions, experiments, and final evaluations were independently executed and validated by the author.
+AI was used only as a supplementary aid to enhance learning and efficiency, not as a replacement for human understanding or work.
 
 ##  References
 
