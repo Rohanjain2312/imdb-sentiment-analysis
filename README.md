@@ -2,7 +2,7 @@
 
 A comprehensive comparison of machine learning and deep learning models for sentiment classification on the IMDB movie review dataset, achieving up to 86.97% accuracy with Convolutional Neural Networks.
 
-## 📊 Project Overview
+## Project Overview
 
 This project implements and compares multiple models for binary sentiment classification (positive/negative) on IMDB movie reviews:
 
@@ -11,7 +11,7 @@ This project implements and compares multiple models for binary sentiment classi
 - **Convolutional Neural Network (CNN)**
 - **Impact Analysis of Stopword Removal**
 
-## 🎯 Key Findings
+## Key Findings
 
 | Model | Accuracy | Key Insight |
 |-------|----------|-------------|
@@ -29,7 +29,7 @@ This project implements and compares multiple models for binary sentiment classi
 3. **Keep stopwords for sentiment**: Removal degraded all models, especially CNN (-0.76%)
 4. **Sequential structure is crucial**: CNNs effectively capture n-gram patterns like "not good" and "very bad"
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 imdb-sentiment-analysis/
@@ -62,7 +62,7 @@ nltk
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/imdb-sentiment-analysis.git
+git clone https://github.com/Rohanjain2312/imdb-sentiment-analysis.git
 cd imdb-sentiment-analysis
 ```
 
@@ -89,7 +89,7 @@ Or run directly with Python (if converted to .py):
 python sentiment_analysis.py
 ```
 
-## 📈 Model Architectures
+## Model Architectures
 
 ### 1. Logistic Regression (Baseline)
 - Binary bag-of-words features
@@ -122,7 +122,7 @@ python sentiment_analysis.py
 - Accuracy: **86.97%**
 - Training time: ~352 seconds (6 epochs)
 
-## 🔬 Methodology
+## Methodology
 
 ### Dataset
 - **Source**: IMDB Movie Review Dataset (Keras)
@@ -138,7 +138,7 @@ python sentiment_analysis.py
 - **Validation**: 10% of training data
 - **Stopword Analysis**: Compared models with/without stopword removal
 
-## 📊 Results Visualization
+## Results Visualization
 
 The project includes visualizations for:
 - Model accuracy comparison bar charts
@@ -146,7 +146,7 @@ The project includes visualizations for:
 - Training/validation loss curves
 - Confusion matrices (optional)
 
-## 🔍 Detailed Analysis
+## Detailed Analysis
 
 For comprehensive analysis including:
 - Architectural trade-offs
@@ -154,9 +154,9 @@ For comprehensive analysis including:
 - Recommendations for improvement
 - Path to 90%+ accuracy
 
-See: [Performance Analysis Report](reports/Performance_Analysis.md)
+See: [Performance Analysis Report]
 
-## 🎓 Key Takeaways
+## Key Takeaways
 
 ### What Worked
 - CNNs effectively capture local n-gram patterns
@@ -174,7 +174,7 @@ See: [Performance Analysis Report](reports/Performance_Analysis.md)
 - **Fast Baseline**: Use Logistic Regression (85.74%, CPU-only)
 - **Research**: Explore LSTM/GRU, Attention, or BERT for 90%+
 
-## 🛠️ Future Improvements
+## Future Improvements
 
 To reach 90%+ accuracy:
 
@@ -183,7 +183,7 @@ To reach 90%+ accuracy:
 3. **Training**: More epochs with early stopping, Hyperparameter optimization
 4. **Advanced**: Ensemble methods, Data augmentation, Fine-tune BERT/RoBERTa
 
-## 📝 Requirements
+## Requirements
 
 ```
 tensorflow>=2.10.0
@@ -194,12 +194,12 @@ matplotlib>=3.4.0
 nltk>=3.6
 ```
 
-## 👤 Author
+## Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Profile](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@Rohanjain2312](https://github.com/Rohanjain2312)
+- LinkedIn: [Your Profile](https://www.linkedin.com/in/jaroh23/)
+- Email: rohanjain2312@gmail.com
 
 ##  Acknowledgments
 
@@ -213,6 +213,4 @@ nltk>=3.6
 2. Kim, Y. (2014). "Convolutional Neural Networks for Sentence Classification"
 3. Zhang, X., & LeCun, Y. (2015). "Text Understanding from Scratch"
 
----
-
-**Star ⭐ this repository if you found it helpful!**
+--
