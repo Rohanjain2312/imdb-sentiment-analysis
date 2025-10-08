@@ -198,7 +198,7 @@ nltk>=3.6
 
 **Rohan Jain**
 - GitHub: [@Rohanjain2312](https://github.com/Rohanjain2312)
-- LinkedIn: [Your Profile](https://www.linkedin.com/in/jaroh23/)
+- LinkedIn: [Profile](https://www.linkedin.com/in/jaroh23/)
 - Email: rohanjain2312@gmail.com
 
 ##  Acknowledgments
